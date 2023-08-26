@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  min-height: 100vh;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #f7f2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: #edc84b;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+main {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-even;
+}
+
+.input {
+  align-self: flex-start;
+  /* justify-content: center; */
+  border: 4px solid #e9bb24;
+  border-radius: 10px;
+  margin-right: 2rem;
+  min-width: 300px;
+}
+
+.input h3 {
+  text-align: center;
+  margin: 10px 20px auto;
+}
+
+form {
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.name-div,
+.email-div,
+.website-div,
+.image-div,
+.gender-div,
+.skills-div {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+select {
+  display: block;
+  width: 100%;
+}
+
+.form-btn {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  background-color: #edc84b;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 0.5rem;
+}
+
+.form-btn:hover {
+  background-color: #e9bb24;
+}
+
+.output {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 4px solid #e9bb24;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.card img {
+  height: 64px;
+}
+
+.card-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-data h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.card-data a {
+  text-decoration: none;
+  color: orange;
+}
+
+.card-data a:hover {
+  color: #e95924;
+  /* text-decoration: underline; */
+}
+
+.card-data h3 {
+  color: #e9bb24;
+}
+
+.card-data p {
+  color: #e95924;
+}
+
+.delete-btn {
+  color: #f7f2e9;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: #e93e24;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #e95924;
+}
